@@ -27,6 +27,8 @@
 - (void)setupView
 {
     self.title = @"PagingDemo";
+        
+    NSLog(@"Develop New Task On Dev Branch");
     
     [self.view addSubview:self.pagingHeaderView];
     WS(weakSelf);
