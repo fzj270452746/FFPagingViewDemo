@@ -28,6 +28,8 @@
 {
     self.title = @"PagingDemo";
     
+    NSLog(@"TEST");
+    
     [self.view addSubview:self.pagingHeaderView];
     WS(weakSelf);
     self.pagingHeaderView.pagingViewItemClickHandle = ^(FFPagingHeaderView *headerView, NSString *title, NSInteger currentIndex) {
