@@ -56,6 +56,8 @@
     
     [self setupData];
     [self setupView];
+    
+    NSLog(@"update master branch");
 }
 
 - (void)viewDidLayoutSubviews
